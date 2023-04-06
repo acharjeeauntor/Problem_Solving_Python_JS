@@ -53,3 +53,16 @@
 # second_number = float(input("Enter Second Number: "))
 # sum = first_number + second_number
 # print(sum)
+
+################################# String
+
+text = "I Love BD"
+print(text.capitalize())
+print(text.lower())
+print(text.upper())
+print(text.find("L"))
+print(text.find('BD'))
+print(text.replace('BD','You'))
+# print(text.count())
+print(text.split(" "))
+print('BD' in text)

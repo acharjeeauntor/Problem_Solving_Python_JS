@@ -56,13 +56,138 @@
 
 ################################# String
 
-text = "I Love BD"
-print(text.capitalize())
-print(text.lower())
-print(text.upper())
-print(text.find("L"))
-print(text.find('BD'))
-print(text.replace('BD','You'))
-# print(text.count())
-print(text.split(" "))
-print('BD' in text)
+# text = "I Love BD"
+# print(text.capitalize())
+# print(text.lower())
+# print(text.upper())
+# print(text.find("L"))
+# print(text.find('BD'))
+# print(text.replace('BD','You'))
+# # print(text.count())
+# print(text.split(" "))
+# print('BD' in text)
+
+################################# Arithmatic Operator
+# x = 10
+# y = 5
+
+# print(x+y)
+# print(x-y)
+# print(x*y)
+# print(x/y)
+# print(x//y)
+# print(x%y)
+# print(x**y) # x*x*x*x*X
+
+# x=x+9
+# print(x)
+# y+=8
+# print(y)
+
+################################# Operator Precedence
+# x = 10 + 3 * 2  # Order: /,*,+,-
+# print(x)
+
+# y = (10 + 3) * 2
+# print(y)
+
+################################# Comparision Operator
+# Type: <,<=,>,>=,==,!=
+
+# x = 3<2
+# print(x)
+# y = 3<=2
+# print(y)
+# z = 3>=2
+# print(z)
+# a = 3>2
+# print(a)
+# b = 3==2
+# print(b)
+# c = 3!=2
+# print(c)
+
+################################# Logical Operator
+
+# x = 10
+# print(x>20 or x<30)
+# print(x>20 and x<30)
+# print(x>20)
+# print(not x>20)
+
+################################# if else Statement
+
+# temp = 22
+
+# if temp>30:
+#     print("It's Hot today")
+# elif temp>20:
+#     print("Its less Hot today")
+# else:
+#     print("Its bit cold today")
+# print("Done")
+    
+
+################################# while loop
+
+# i = 1
+# while i<=10:
+#     print(i * '#')
+#     i+=1
+
+
+################################# For loop
+# info = ["Auntor",25,"Tangail","DIU","Brotecs",1998]
+
+# for item in info:
+#     print(item)
+#     if (item == 25):
+#         print("item is your age.")
+
+
+################################# List/Array
+
+# info = ["Auntor",25,"Tangail","DIU","Brotecs",1998]
+# print(info)
+# print(info[0])
+# print(info[-1])
+# print(info[-2])
+# info[0] = "Ontu"
+# print(info)
+# print(info[0:4])
+
+################################# List Methods
+
+# numbers = [1,3,4,7,9,2]
+# numbers.append(0)
+# print(numbers)
+# numbers.insert(1,50)
+# print(numbers)
+# numbers.sort()
+# print(numbers)
+# numbers.remove(7)
+# print(numbers)
+# print(len(numbers))
+# numbers.extend([5,6])
+# print(numbers)
+# print(51 in numbers)
+# numbers.clear()
+# print(numbers)
+
+################################# Range Function
+# numbers = range(5,10)
+# for num in numbers:
+#     print(num)
+
+# for num in range(5,20):
+#     print(num)
+
+# for num in range(5,20,3):
+#     print(num)
+
+################################# Tuples
+# Tuples unchangable / emutable
+
+# numbers = (2,5,6,7,9,3,6)
+# print(numbers.count(6))
+# print(numbers.index(7))

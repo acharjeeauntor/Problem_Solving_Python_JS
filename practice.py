@@ -191,3 +191,73 @@
 # numbers = (2,5,6,7,9,3,6)
 # print(numbers.count(6))
 # print(numbers.index(7))
+
+################################# 2D List
+
+# matrix = [
+# [4,5,6],
+# [10,11,12],
+# [15,16,17]
+# ]
+
+# # print(matrix[0][1])
+# for row in matrix:
+#     for item in row:
+#         print(item)
+
+################################# Unpacking
+# unpacking mainly List r Tuples e use kora jay. Tuples r List er value gulo k use krte amra unpacking 
+# use korte pari
+
+# exampleTuples = (5,8,9)
+# exampleList= [55,88,99]
+
+# x,y,z=exampleTuples
+# a,b,c=exampleList
+
+# print(b,z)
+
+################################# Dictionaries
+# customer = {
+#     "name":"Auntor",
+#     "age":25,
+#     "is_married":False
+# }
+# print(customer["age"])
+# customer["company"] = "Brotecs"
+# print(customer["company"])
+# customer["name"] = "Ontu"
+# print(customer)
+
+################################# Function
+
+# def user_info(fName,lName):
+#     print(f"Your First Name is {fName}")
+#     print(f"Your Last Name is {lName}")
+
+# print("start")
+# user_info("Auntor","Acharja")
+# print("stop")
+
+
+#### Keyword Argument Function [parameter e keyword add kore deya jay.]
+
+# def user_info(fName,lName):
+#     print(f"Your First Name is {fName}")
+#     print(f"Your Last Name is {lName}")
+
+# print("start")
+# user_info(fName="Auntor",lName="Acharja")
+# print("stop")
+
+# print("start")
+# user_info("Ontu",lName="Acharja")
+# print("stop")
+
+#### Return Function
+
+# def squre(number):
+#     return number*number
+
+# result = squre(6)
+# print(result)

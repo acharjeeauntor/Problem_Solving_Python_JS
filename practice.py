@@ -263,6 +263,20 @@
 # print(result)
 
 
+################################# Exception
+# https://www.w3schools.com/python/python_ref_exceptions.asp
+
+# try:
+#     age = int(input("Give you age: "))
+#     print(age)
+#     income = 10000
+#     risk  = income/age
+# except ValueError:
+#     print("Invalid input has been given")
+# except ZeroDivisionError:
+#     print("Age can not be Zero")
+
+
 ################################# Classes
 
 # class Human:
@@ -301,15 +315,44 @@
 # point1.draw()
 # point1.cordinate()
 
-################################# Exception
-# https://www.w3schools.com/python/python_ref_exceptions.asp
+################################# Class With Constructor
 
-# try:
-#     age = int(input("Give you age: "))
-#     print(age)
-#     income = 10000
-#     risk  = income/age
-# except ValueError:
-#     print("Invalid input has been given")
-# except ZeroDivisionError:
-#     print("Age can not be Zero")
+# class Person:
+#     def __init__(self,name):
+#         self.name = name
+#     def talk(self):
+#         print(f"Hi {self.name}")
+    
+
+# person1 = Person("Auntor")
+# person1.talk()
+
+# person2 = Person("Ontu")
+# person2.talk()
+
+################################# Inheritance
+
+# class Vehicle:
+#     wheel = True
+#     def isThereEngine(self):
+#         print("Yes This vehicle has Engine")
+    
+# class Car(Vehicle):
+#     def brand(self):
+#         print("The car brand is BMW")
+
+
+# class Bycycle(Vehicle):
+#     def bell(self):
+#         print("The Bycycle has a bell")
+
+# car1 = Car()
+# car1.brand()
+# car1.isThereEngine()
+# print(f"Is there any wheel: {car1.wheel}")
+
+
+# bycycle1 = Bycycle()
+# bycycle1.bell()
+# bycycle1.isThereEngine()
+# print(f"Is there any wheel: {bycycle1.wheel}")

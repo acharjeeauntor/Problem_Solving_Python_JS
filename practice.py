@@ -261,3 +261,55 @@
 
 # result = squre(6)
 # print(result)
+
+
+################################# Classes
+
+# class Human:
+#     age = 25
+#     def isMarried(self):
+#         print("Not Married")
+#     def isMan(self):
+#         print("Yes man")
+
+# auntor = Human()
+# print(auntor.age)
+# auntor.isMan()
+# auntor.isMarried()
+# auntor.name = "Auntor Acharja"
+# print(auntor.name)
+
+# ontu = Human()
+# ontu.isMan()
+# ontu.college = "Sristy"
+# print(ontu.college)
+
+################################# Constructor
+
+# class Point:
+#     def __init__(self,x,y):
+#         self.x = x
+#         self.y = y
+
+#     def draw(self):
+#         print("Drawing")
+
+#     def cordinate(self):
+#         print(f"X cordinate value is {self.x} and Y cordinate value is {self.y}")
+
+# point1 = Point(10,12)
+# point1.draw()
+# point1.cordinate()
+
+################################# Exception
+# https://www.w3schools.com/python/python_ref_exceptions.asp
+
+# try:
+#     age = int(input("Give you age: "))
+#     print(age)
+#     income = 10000
+#     risk  = income/age
+# except ValueError:
+#     print("Invalid input has been given")
+# except ZeroDivisionError:
+#     print("Age can not be Zero")

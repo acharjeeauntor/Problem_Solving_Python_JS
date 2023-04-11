@@ -356,3 +356,35 @@
 # bycycle1.bell()
 # bycycle1.isThereEngine()
 # print(f"Is there any wheel: {bycycle1.wheel}")
+
+################################# Module
+# Module use hoy Code organization er jnno. Actually kono code jodi amra different module/file theke access korte chy tahole amra oi code gulo function/ class 
+# hisebe create kore onno file e import kore use korte pari
+
+# Two way te amra module import korte pari.
+# 1. File k object hisebe direct import kora. [import converter]
+# 2. File er function/class k direct import kora. [from converter import lbs_to_kg]
+
+# Only function r class k amra module hisebe onno file e import korte pari.Jokhn kono file k amra import korbo tokhn 
+# seti object hisebe import hoy ei jnno amader filename. diye use korte hoy.
+
+
+# import method
+# import converter
+# from converter import lbs_to_kg
+
+# # import class
+# import classModule
+# from classModule import Classmodule
+
+
+# value1 = converter.kg_to_lbs(50)
+# print(value1)
+
+# value2  = lbs_to_kg(50)
+# print(value2)
+
+# person = classModule.Classmodule()
+# person.name()
+
+# print(Classmodule.x)

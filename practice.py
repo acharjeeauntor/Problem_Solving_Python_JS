@@ -359,16 +359,18 @@
 
 ################################# Module
 
+# A module allows you to logically organize your Python code. Grouping related code into a module makes the code easier to understand and use. A module is a Python object with arbitrarily named attributes that you can bind and reference.
+# Simply, a module is a file consisting of Python code. A module can define functions, classes and variables. A module can also include runnable code.
 
-# Module use hoy Code organization er jnno. Actually kono code jodi amra different module/file theke access korte chy tahole amra oi code gulo function/ class 
-# hisebe create kore onno file e import kore use korte pari
+# Module use hoy Code organization er jnno. Actually kono code jodi amra different module/file theke access korte chy tahole amra oi code gulo function/ class /variable
+# hisebe create kore onno akta module/file e rakhte hbe thn oi module/file import kore use korte hobe.
 
 # Two way te amra module import korte pari.
-# 1. File k object hisebe direct import kora. [import converter]
-# 2. File er function/class k direct import kora. [from converter import lbs_to_kg]
+# 1. Module k object hisebe direct import kora. [import converter]
+# 2. Module er function/class k direct import kora. [from converter import lbs_to_kg]
 
-# Only function r class k amra module hisebe onno file e import korte pari.Jokhn kono file k amra import korbo tokhn 
-# seti object hisebe import hoy ei jnno amader filename. diye use korte hoy.
+# Only function,class,variable k amra module er vitor rakhte pari.Jokhn kono module k amra import korbo tokhn 
+# seti object hisebe import hoy ei jnno amader module Name er por (.) diye function/class gulo call/access korte hoy.
 
 
 # import method
@@ -390,3 +392,86 @@
 # person.name()
 
 # print(Classmodule.x)
+
+
+################################# Packages
+
+# We usually organize our files in different folders and subfolders based on some criteria, so that they can be managed easily and efficiently. 
+# A Python module may contain several classes, functions, variables, etc. whereas a Python package can contains several module. In simpler terms a package is folder that contains various modules as files.
+
+# Packages o use hoy Code organization er jnno. amra different module k akta package er under a rakhe thn oi
+# package import kore oi module er class/function gulo use korte pari.
+
+# Python a kono package create korar por __init__.py name e akta file create korte hoy. __init__.py file kono folder er modhe
+# thakle python oi folder ti k package hisebe dhore neyy.
+
+# Three way te amra Package import korte pari.
+# 1. Package k direct import kora. [import  ecommerce.shipping]
+# 2. Package er module direct import kora. [from ecommerce import shipping]
+# 3. Package-Module er function/class k direct import kora [from ecommerce.shipping import cal_shipping,dummy_shipping]
+
+
+
+
+# import ecommerce.shipping
+# from ecommerce import shipping
+# from ecommerce.shipping import cal_shipping,dummy_shipping
+
+# ecommerce.shipping.cal_shipping()
+# shipping.dummy_shipping()
+# cal_shipping()
+# dummy_shipping()
+
+
+# NOTE:::::::::::   Project -> Packages -> Modules -> PythonFile.py (that contain Classes/functions)
+
+
+ ################################# Python build-In Module
+
+# https://docs.python.org/3/py-modindex.html
+
+# import random
+
+# # This will generate random value 0-1
+# for i in range(3):
+#     print(random.random())
+
+
+# # This will generate Specific random value 10-20
+# print(random.randint(10,20))
+
+# # This will show random array value
+# name = ['Auntor','ontu','ABC']
+# value = random.choice(name)
+# print(value)
+
+
+ ################################# Python Directories
+# pathlib is a built-in module
+
+# from pathlib import Path
+
+# path = Path("ecommerce")
+# print(path.exists())
+
+
+# path = Path()
+# for file in path.glob("*"):
+#     print(file)
+
+
+
+# path1 = Path("myENV")
+# # print(path1.mkdir())
+# # print(path1.rename("myENV"))
+# print(path1.rmdir())
+
+
+ ################################# PyPi & pip
+# pypi is an acronym for the Python Packaging Index - it is the standard repository for Python packages and tools.
+# Here is the repo address : https://pypi.org/
+
+# Pip is a package-management system written in Python and is used to install and manage software packages. 
+
+# This package has been install from  pip first then import in the project
+# import openpyxl

@@ -474,4 +474,6 @@
 # Pip is a package-management system written in Python and is used to install and manage software packages. 
 
 # This package has been install from  pip first then import in the project
-# import openpyxl
+# import openpyxl as xl
+# wb = xl.load_workbook("dummy.xlsx")
+

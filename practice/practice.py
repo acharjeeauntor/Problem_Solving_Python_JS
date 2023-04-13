@@ -63,7 +63,7 @@
 # print(text.find("L"))
 # print(text.find('BD'))
 # print(text.replace('BD','You'))
-# # print(text.count())
+# print(text.count())
 # print(text.split(" "))
 # print('BD' in text)
 
@@ -77,7 +77,7 @@
 # print(x/y)
 # print(x//y)
 # print(x%y)
-# print(x**y) # x*x*x*x*X
+# print(x**y) # x*x*x*x*x
 
 # x=x+9
 # print(x)

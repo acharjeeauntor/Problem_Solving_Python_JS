@@ -145,6 +145,36 @@
 #         print("item is your age.")
 
 
+
+
+#################################  Backward iteration in Python
+# https://www.tutorialspoint.com/backward-iteration-in-python
+# We can perform Backward iteration in 3 way
+
+# 1. Using range(N, -1, -1)
+
+# list = ['Mon', 'Tue', 'Wed', 'Thu']
+# for x in range(len(list)-1,-1,-1):
+#     print(list[x])
+
+
+# 2. List Comprehension and [::-1]
+
+# list = ['Mon', 'Tue', 'Wed', 'Thu']
+# for x in list[::-1]:
+#     print(x)
+
+
+# 3. using reversed()
+
+# list = ['Mon', 'Tue', 'Wed', 'Thu']
+# for x in reversed(list):
+#     print(x)
+
+
+
+
+
 ################################# List/Array
 
 # info = ["Auntor",25,"Tangail","DIU","Brotecs",1998]

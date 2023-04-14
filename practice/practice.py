@@ -507,3 +507,8 @@
 # import openpyxl as xl
 # wb = xl.load_workbook("dummy.xlsx")
 
+ ################################# convert string to list using list() method
+
+# text = "Auntor"
+# list = list(text)
+# print(list)

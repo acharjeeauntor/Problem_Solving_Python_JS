@@ -215,6 +215,11 @@
 # for num in range(5,20,3):
 #     print(num)
 
+# myList = ["a","b",5,8,0]
+
+# for num in range(0,len(myList)):
+#     print(myList[num])
+
 ################################# Tuples
 # Tuples unchangable / emutable
 

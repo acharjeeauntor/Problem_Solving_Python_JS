@@ -144,6 +144,27 @@
 #     if (item == 25):
 #         print("item is your age.")
 
+# amader jodi loop use kore index niye kaj korte hoy tahole amader range() fn use korte hbe
+# amra jodi direct value nite chy tahole range() fn use korte hbe na but jodi index niye kaj 
+# korte hoy thaole range() use kore index pawa jabe then just list[index] use kore amra kaj korte parbo
+# Example:
+
+# myIntArray = [1,3,4,6,7,1,7,3,4,9,0]
+
+# for i in range(0,len(myIntArray)):
+#     print(myIntArray[i])
+
+
+
+# myIntArray = [1,3,4,6,7,1,7,3,4,9,0]
+# machingElement = []
+
+# for m in range(0,len(myIntArray)):
+#     for n in range(m+1,len(myIntArray)):
+#         if (myIntArray[m] == myIntArray[n]):
+#             machingElement.append(myIntArray[m])
+
+# print(machingElement)
 
 
 

@@ -1,6 +1,6 @@
 # Problem 3: How do you get the matching elements in an integer array?
 
-myIntArray = [1,3,4,6,7,1,7,3,4,9,0]
+myIntArray = [1,3,4,6,7,1,7,3,4,9,0,1]
 machingElement = []
 
 for m in range(0,len(myIntArray)):
